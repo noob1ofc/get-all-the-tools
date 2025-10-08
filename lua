@@ -13,7 +13,7 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.136015326, 0, 0.158333331, 0)
+Frame.Position = UDim2.new(0.136015326, -231, 0.158333331, -448)
 Frame.Size = UDim2.new(0, 192, 0, 82)
 
 UICorner.CornerRadius = UDim.new(0, 3)
@@ -39,9 +39,8 @@ UICorner_2.Parent = TextButton
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 60, 60)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(60, 60, 60))}
 UIGradient_2.Parent = TextButton
 
--- Scripts:
 
-local function IGQAXGF_fake_script() -- TextButton.LocalScript 
+local function HJIIOUS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local button = script.Parent
@@ -73,4 +72,4 @@ local function IGQAXGF_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(IGQAXGF_fake_script)()
+coroutine.wrap(HJIIOUS_fake_script)()
